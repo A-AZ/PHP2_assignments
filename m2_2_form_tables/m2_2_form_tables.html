@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>
+        Welcome To The Most Worst University
+    </title>
+</head>
+ <body>
+     <h1>Welcome To the Worst University Ever</h1>
+     <p><strong>We welcome you for applying in our university, please fill the application below to join us to become among the worst students ever!</strong></p>
+     
+     <form action="" method="get">
+        <!--Name-->
+        <div>
+            <label for="Student_Name">Student Name (as in Passport):</label>
+            <input id="Student_Name" type="text" name="Name" placeholder="Full Name">
+        </div>
+        <!--Birthday-->
+        <div>
+            <label for="Date_of_Birth">Date Of Birthday:</label>
+            <input for="Date_of_Birth" type="date" name="birthday" >
+        </div>
+        <!--Weight-->
+        <div>
+            <label for="weight">Weight (kg)</label>
+            <input id="weight" type="number" name="_wight_" min="0" max="200">
+        </div>
+        <div>
+            <!--Gender-->
+            <fieldset style="width: 200px">
+                <legend>Choose Gender:</legend>
+                <div> 
+                    <label for="Male">Male</label>
+                    <input id="Male" type="radio" name="gender" value="M">
+                </div>
+                <div>
+                    <label for="Female">Female</label>
+                    <input id="Female" type="radio" name="gender" value="F">
+                </div>
+            </fieldset>
+        </div>
+        <!--Email-->
+        <div>
+            <label for="Email">Email:</label>
+            <input id="Email" type="email" size="25" placeholder="example@example.com">
+        </div>
+        <!--Phone-->
+        <div>
+            <label for="Phone_number">Phone Number:</label>
+            <input id="Phone_number" type="tel" name="phone" placeholder="(+962)7">
+        </div>
+        <!--City-->
+        <div>
+            <label for="City""> What City do you live ?</label>
+            <select id="City" name="city">
+                <option value="Amman">Amman</option>
+                <option value="Paradis">Paradis</option>
+                <option value="Winterfell">Winterfell</option>
+                <option value="Eldia">Eldia</option>
+            </select>
+        </div>
+        <!--Favorite Color-->
+        <div>
+            <label for="Color">What's your Favorite Color?</label>
+        <input id="Color" type="color" name="color">
+        </div>
+        <!--Attach CV-->
+        <div>
+            <label for="c_v">Attach Your CV:</label>
+            <input id="c_v" type="file" name="cv">
+        </div>
+        <!--Contact via Email -->
+        <div> 
+            <fieldset style="width: 300px">
+                <legend>Do You want to contact with you by Email?</legend>
+                <div> 
+                    <label for="Yes">Yes</label>
+                    <input id="Yes" type="checkbox" name="contact" value="yes">
+                </div>
+            </fieldset>
+        </div>
+ </form>
+ <hr>
+ <!--Table is Here-->
+<table bgcolor="black">
+<caption>Students Data</caption>
+<thread>
+<tr bgcolor="Grey">
+    <th width="100">Name:</th>
+    <th  width="100">Date of Birth:</th>
+    <th  width="100">Weight:</th>
+    <th  width="100">Gender:</th>    
+    <th  width="100">City:</th>
+    <th  width="100">Color:</th>
+</tr>
+</thread>
+<tr bgcolor="White" align="center">
+    <td>Eren</td>
+    <td>30-03-1995</td>
+    <td>85</td>
+    <td>Male</td>
+    <td>Amman</td>
+    <td>Red</td>
+</tr>
+<tr bgcolor="lightgrey" align="center">
+    <td>Levi</td>
+    <td>14-10-1990</td>
+    <td>78</td>
+    <td>Male</td>
+    <td>Winterfell</td>
+    <td>Blue</td>
+</tr>
+<tr bgcolor="White" align="center">
+    <td>Erwin</td>
+    <td>14-10-1988</td>
+    <td>88</td>
+    <td>Male</td>
+    <td>Paradis</td>
+    <td>White</td>
+</tr>
+<tr bgcolor="lightgrey" align="center">
+    <td>Mikasa</td>
+    <td>10-02-1995</td>
+    <td>70</td>
+    <td>Female</td>
+    <td>Eldia</td>
+    <td>Orange</td>
+</tr>
+</table>
+<hr>
+</body>
+</html>
