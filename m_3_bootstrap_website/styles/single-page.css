@@ -1,0 +1,13 @@
+#store_hero {
+    background-image: url("../assets/hero_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#store_hero div {
+    opacity: 85%;
+}
+#card {
+    width: 30vw;
+}

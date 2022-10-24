@@ -1,0 +1,22 @@
+#store_hero {
+    background-image: url("../assets/hero_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#store_hero div {
+    opacity: 85%;
+}
+
+#sidebar {
+    border-right: 3px solid #585b5e;
+}
+
+#card_boarder {
+    border: 2px solid #585b5e;
+}
+
+.badge {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,16 @@
+
+#home_hero {
+    background-image: url("../assets/hero_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home_hero form {
+    opacity: 95%;
+
+}
+.badge {
+    font-size: 1.2rem;
+}
+
