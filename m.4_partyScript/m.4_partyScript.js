@@ -5,9 +5,7 @@ let userAge;
 do {
     userAge = prompt("How old are you?");
     userAge = parseInt(userAge);
-    if (isNaN(userAge)) {
-        continue; }
-    
+
     if (userAge < minAge) {
     displayMsg("You are too young");}
     else if (userAge > 35) {
