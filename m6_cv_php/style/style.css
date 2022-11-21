@@ -1,0 +1,19 @@
+#home_hero {
+    background-image: url(../assets/bg_hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home_hero form {
+    opacity: 80%;
+}
+
+footer {
+    background-color: rgb(80, 80, 80);
+    height: 1rem;
+}
+
+#submet, #search {
+    width: 30vh;
+}

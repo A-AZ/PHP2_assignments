@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "firstName": "Imogene",
+        "lastName": "Young",
+        "email": "xytahi@mailinator.com",
+        "tel": "+1 (795) 464-6891",
+        "linkedin": "https:\/\/www.camux.cm",
+        "github": "https:\/\/www.tacyxef.biz",
+        "education": "Nostrud ipsum repell",
+        "educationDate": "1988-11-03",
+        "experiance": "08-Oct-1998",
+        "experianceDate": "1983-09-01",
+        "skills": "Porro qui sed rerum ",
+        "languages": "Aut delectus eius m"
+    },
+    {
+        "id": 2,
+        "firstName": "Guy",
+        "lastName": "Schroeder",
+        "email": "sakakecyko@mailinator.com",
+        "tel": "+1 (331) 649-7267",
+        "linkedin": "https:\/\/www.zovikumelurafu.org.au",
+        "github": "https:\/\/www.nowuny.cm",
+        "education": "Cillum eligendi qui ",
+        "educationDate": "2001-06-22",
+        "experiance": "15-Mar-1971",
+        "experianceDate": "2020-12-22",
+        "skills": "Porro ab cumque nihi",
+        "languages": "Magna irure nostrud "
+    },
+    {
+        "id": 3,
+        "firstName": "Audrey",
+        "lastName": "Hardy",
+        "email": "kojynelyz@mailinator.com",
+        "tel": "+1 (368) 313-4835",
+        "linkedin": "https:\/\/www.hago.in",
+        "github": "https:\/\/www.nosejy.org.uk",
+        "education": "Aliqua Dolorem Nam ",
+        "educationDate": "1981-07-20",
+        "experiance": "25-Dec-2013",
+        "experianceDate": "2002-11-12",
+        "skills": "Pariatur Tenetur ei",
+        "languages": "Quo nostrud nihil co"
+    },
+    {
+        "id": 4,
+        "firstName": "Brendan",
+        "lastName": "Wynn",
+        "email": "ceke@mailinator.com",
+        "tel": "+1 (427) 717-3305",
+        "linkedin": "https:\/\/www.gypewaxarasi.org",
+        "github": "https:\/\/www.bewiwicozuzidi.org",
+        "education": "Sed qui eveniet dol",
+        "educationDate": "1973-01-12",
+        "experiance": "09-Mar-2008",
+        "experianceDate": "1998-09-22",
+        "skills": "Est nihil et eum se",
+        "languages": "Aut molestias mollit"
+    }
+]
