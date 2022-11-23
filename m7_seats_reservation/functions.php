@@ -23,7 +23,8 @@ function connect()
     return $conn;
 }
 
-function create_user($name, $email, $password) {
+function create_user($name, $email, $password)
+{
     $connection = connect();
     $sql = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
     $new_user_id = 0;
@@ -35,7 +36,8 @@ function create_user($name, $email, $password) {
     return $new_user_id;
 }
 
-function get_user($id) {
+function get_user($id)
+{
     $connection = connect();
     $sql = "SELECT * FROM users WHERE id=$id";
     $result = mysqli_query($connection, $sql);
@@ -43,4 +45,48 @@ function get_user($id) {
     mysqli_close($connection);
 
     return mysqli_fetch_object($result);
+}
+
+
+function get_seats()
+{
+    $connection = connect();
+    $sql = "SELECT * FROM seat";
+    $result = mysqli_query($connection, $sql);
+
+    $seat = array();
+
+    if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_object($result)) {
+            $seat[] = $row;
+        }
+    }
+
+    return $seat;
+}
+
+
+
+function get_seat($id) {
+    $connection = connect();
+    $sql = "SELECT * FROM seat WHERE id=$id";
+    $result = mysqli_query($connection, $sql);
+
+    mysqli_close($connection);
+    return mysqli_fetch_object($result);
+}
+
+
+
+function update_seat_reserve($id, $status, $user_id) {
+    $connection = connect();
+    $user_id = !empty($user_id) ? $user_id : "NULL";
+    $sql = <<<EOD
+    UPDATE seat
+        SET avaliable=$status, user_id=$user_id
+        WHERE id=$id
+    EOD;
+
+    mysqli_query($connection, $sql);
+    mysqli_close($connection);
 }

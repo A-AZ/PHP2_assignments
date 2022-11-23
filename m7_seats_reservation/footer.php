@@ -1,4 +1,4 @@
-<footer class="d-flex flex-column align-items-center m-5 fixed-bottom">
+<footer class="d-flex flex-column align-items-center m-5">
     <h6>All Right Reserved - Abood A_Z(L0rdSn0w)&copy; - 2022</h6>
 </footer>
 

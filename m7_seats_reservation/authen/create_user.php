@@ -15,8 +15,6 @@ $password = isset($_POST['password']) ? $_POST['password'] : null;
 $error = false;
 $error_msg = '';
 
-
-
 if (!empty($name) && !empty($email) && !empty($password)) {
     $new_user_id = create_user($name, $email, $password);
     if ($new_user_id) {
@@ -29,11 +27,11 @@ if (!empty($name) && !empty($email) && !empty($password)) {
         $error = true;
         $error_msg = 'User is already existed';
     }
-}
-else {
+} else {
     $error = true;
     $error_msg = 'You need to enter all the information';
 }
+
 
 if ($error) {
     $_SESSION['error'] = $error_msg;
@@ -44,5 +42,5 @@ if ($error) {
         'is_admin' => $user->is_admin,
         'user_id' => $user->id
     );
-    reserve_redirect('../seats_reserve.php');
+    reserve_redirect('../home.php');
 }
